@@ -21,5 +21,17 @@ function reverseString(str){
     return result.join('');
 }
 const res = reverseString('hello');
-console.log(res);
+// console.log(res);
+//
+
+//Solution 2
+function reverseString2(str) {
+  let reversed = '';
+  for (let character of str) {
+    reversed = character + reversed;
+  }
+  return reversed;
+}
+const res1 = reverseString2('hello');
+// console.log(res1)
 //
