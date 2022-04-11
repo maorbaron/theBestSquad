@@ -8,7 +8,6 @@
 
 
 //Solution 1
-
 function reverseString(str){
     const result = [];
     if (!str || typeof str !== 'string') {
@@ -21,8 +20,6 @@ function reverseString(str){
     }
     return result.join('');
 }
-
 const res = reverseString('hello');
 console.log(res);
-
 //
